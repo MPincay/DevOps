@@ -16,7 +16,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @RestController
 public class DevOpsApiController implements DevOpsApi{
 
-
 	private final ObjectMapper objectMapper;
 
 	private final HttpServletRequest request;
